@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665d0b594d1cfa64e93a48e7d90cf5fb, type: 3}
+  m_Name: Flash
+  m_EditorClassIdentifier: 
+  data:
+    skillName: 
+    skillDesc: 
+    icon: {fileID: 0}
+    maxLv: 1
+    activeSkillData:
+    - id: 0
+    passiveSkillDatas:
+    - passiveSkillDatas:
+      - id: 1
+  references:
+    version: 1
+    00000000:
+      type: {class: Unit/Skill/AFlashData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 2
+        targetType: 4
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseCombo: 0
+        PP_UsePlayerOnly: 1
+        skillCastingType: 0
+        animSetCasting: []
+        animSetCastingInMove: []
+        animSetCastingInStop: []
+        animSetAttack: []
+        animSetAttackInMove: []
+        animSetAttackInStop: []
+        isDefaultAttack: 0
+        coolTime: 4
+        maxCharge: 1
+        baseCharge: 1
+        chargeTime: 0
+        manaCost: 15
+        maxCombo: 1
+        moveSpdInCasting: 0
+        moveSpdInAttack: 0
+        bCanCancelInCasting: 0
+        bCanCancelInAttack: 0
+        pFlashDashBuffData:
+          ShowPPSetting: 0
+          PP_UseRange: 1
+          PP_UseDefaultTarget: 1
+          PP_UseInRangeHitboxes: 0
+          range: 2
+          targetLayerMask: 2
+          targetType: 4
+          isUsingCasterRotation: 0
+          inRangeHitboxes: []
+          PP_UseDuration: 1
+          PP_UseRestrictionFlag: 0
+          PP_UseRemainTimeType: 0
+          PP_UseAreaStack: 0
+          PP_UseTick: 0
+          duration: 3
+          isTargetingAll: 0
+          restrictionFlag: 0
+          remainTimeType: 0
+          maxAreaStack: 1
+          isUsingTick: 0
+          tickCycleTime: 0
+          maxTickStack: 1
+          rangeRate: 3
+          dashSpeedRate: 5
+          basicPower: 6
+          magicPowerRate: 0.83
+          pFreezingBuffData:
+            ShowPPSetting: 0
+            PP_UseRange: 0
+            PP_UseDefaultTarget: 0
+            PP_UseInRangeHitboxes: 0
+            range: 0
+            targetLayerMask: 0
+            targetType: 0
+            isUsingCasterRotation: 0
+            inRangeHitboxes: []
+            PP_UseDuration: 1
+            PP_UseRestrictionFlag: 0
+            PP_UseRemainTimeType: 1
+            PP_UseAreaStack: 0
+            PP_UseTick: 0
+            duration: 2
+            isTargetingAll: 0
+            restrictionFlag: 0
+            remainTimeType: 1
+            maxAreaStack: 1
+            isUsingTick: 0
+            tickCycleTime: 0
+            maxTickStack: 1
+          hitbox:
+            offset: {x: 0, y: 0, z: 0}
+            direction: {x: 0, y: 0, z: 0}
+            maxDistance: 0.0001
+            rangeTypeFlag: 2
+            startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+            endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+            areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+            radius: 0
+          flashFXPrefab: {fileID: -3951584689663012938, guid: e955e3c0e172922498e033ebbb2e2c45, type: 3}
+          hitFXPrefab: {fileID: -3951584689663012938, guid: e955e3c0e172922498e033ebbb2e2c45, type: 3}
+    00000001:
+      type: {class: Unit/Skill/PFlashSpeedBuffData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        moveSpeedRate: 1.25

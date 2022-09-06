@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Team
+  - SelectedUIObj
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - OutOfField
+  - Water
+  - UI
+  - SkillSet
+  - TowerSet
+  - Field
+  - Team1
+  - Team2
+  - 
+  - 
+  - Item
+  - Tile
+  - 
+  - Outline
+  - Check_Ally
+  - Check_Enemy
+  - Check_Ally_Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Sky
+    uniqueID: 1307180879
+    locked: 0
+  - name: BackGround
+    uniqueID: 65962141
+    locked: 0
+  - name: Tile
+    uniqueID: 2437464781
+    locked: 0
+  - name: Icon
+    uniqueID: 1240148167
+    locked: 0
+  - name: Unit
+    uniqueID: 605297595
+    locked: 0
+  - name: Front Distance
+    uniqueID: 1629348565
+    locked: 0
+  - name: Ui
+    uniqueID: 1774268317
+    locked: 0
+  - name: PopUP
+    uniqueID: 1145773231
+    locked: 0

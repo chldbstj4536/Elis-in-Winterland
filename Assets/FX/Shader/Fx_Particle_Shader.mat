@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fx_Particle_Shader
+  m_Shader: {fileID: 4800000, guid: 0672bfd149671ca4ea234331866ababa, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: 47ae85ae30923d04ba40b3a619be1e81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d3d78f9d8b2a64449aa095006b33bd43, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 44196b8a254a11e40826ec8ec7484b64, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTEx:
+        m_Texture: {fileID: 2800000, guid: 745a835104673ce4b8d5edfebe206cc0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 06a17d05eeb806345b13cd98cc3f6acf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: f42ed942948e9174bbb0c71261dbbeae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistortAmount: 0.06543055
+    - __dirty: 0
+    m_Colors:
+    - _DistortPanner: {r: -1.13, g: 0, b: 0, a: 0}
+    - _DistortPannerXY: {r: 0.1, g: -0.1, b: 0, a: 0}
+    - _TexturePanner: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
+    - _custom1: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_FX_Colbless_add
+  m_Shader: {fileID: 4800000, guid: bc0b2ed75b428784ba3e83c1304c2e63, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: 47ae85ae30923d04ba40b3a619be1e81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 331e60fbf74d84244947d1cfbd86d8a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: cb75b00174766a843805258e7d449c22, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTEx:
+        m_Texture: {fileID: 2800000, guid: 745a835104673ce4b8d5edfebe206cc0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 59ea3fa69f7e1904a8a81ae0b50938ff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistortAmount: 0.01
+    - __dirty: 0
+    m_Colors:
+    - _DistortPanner: {r: 0, g: -0.5, b: 0, a: 0}
+    - _DistortPannerXY: {r: -0.53, g: -0.39, b: 0, a: 0}
+    - _TexturePanner: {r: 0.1, g: 2, b: 0, a: 0}
+    - _custom1: {r: 0, g: 0, b: 0, a: 0}
+    - _tint: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0}
+  m_BuildTextureStacks: []

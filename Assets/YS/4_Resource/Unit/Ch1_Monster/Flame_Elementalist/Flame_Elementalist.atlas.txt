@@ -1,0 +1,64 @@
+Flame_Elementalist.png
+size:1024,128
+filter:Linear,Linear
+pma:true
+Flame Elementalist/Acc
+bounds:413,46,67,80
+Flame Elementalist/L_Acc
+bounds:514,56,70,57
+rotate:90
+Flame Elementalist/L_ear
+bounds:351,3,36,49
+rotate:90
+Flame Elementalist/L_foot
+bounds:709,39,14,26
+Flame Elementalist/L_leg
+bounds:641,12,43,66
+rotate:90
+Flame Elementalist/L_leg2
+bounds:582,3,40,51
+Flame Elementalist/R_Acc
+bounds:682,67,26,59
+Flame Elementalist/R_Foot
+bounds:710,101,15,25
+Flame Elementalist/R_ear
+bounds:402,8,31,45
+rotate:90
+Flame Elementalist/R_leg
+bounds:481,4,40,57
+rotate:90
+Flame Elementalist/R_leg2
+bounds:540,2,40,52
+Flame Elementalist/Shoulder
+bounds:449,2,42,30
+rotate:90
+Flame Elementalist/arm
+bounds:727,103,23,23
+Flame Elementalist/arm2
+bounds:709,12,25,25
+Flame Elementalist/back
+bounds:482,50,76,30
+rotate:90
+Flame Elementalist/hand
+bounds:710,75,24,24
+Flame Elementalist/head
+bounds:231,23,103,102
+rotate:90
+Flame Elementalist/neck
+bounds:573,56,70,39
+rotate:90
+Flame Elementalist/up
+bounds:335,41,76,85
+Flame Elementalist/weapon1
+bounds:2,2,124,227
+rotate:90
+Flame Elementalist/weapon2
+bounds:614,57,66,69
+Flame Elementalist/weapon_acc1
+bounds:294,6,15,55
+rotate:90
+Flame Elementalist/weapon_acc2
+bounds:231,2,19,61
+rotate:90
+Flame Elementalist/weapon_acc3
+bounds:624,7,15,48

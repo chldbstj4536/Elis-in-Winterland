@@ -1,0 +1,10 @@
+Ice_wall.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+레이어 2 복사 2
+bounds:2,2,240,94
+레이어 3 복사
+bounds:313,108,216,299
+용지
+bounds:2,98,309,309

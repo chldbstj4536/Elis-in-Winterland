@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665d0b594d1cfa64e93a48e7d90cf5fb, type: 3}
+  m_Name: Support
+  m_EditorClassIdentifier: 
+  data:
+    skillName: 
+    skillDesc: 
+    icon: {fileID: 0}
+    maxLv: 1
+    activeSkillData:
+    - id: 0
+    passiveSkillDatas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: Unit/Skill/ASupportData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseCombo: 0
+        PP_UsePlayerOnly: 0
+        skillCastingType: 0
+        animSetCasting: []
+        animSetCastingInMove: []
+        animSetCastingInStop: []
+        animSetAttack: []
+        animSetAttackInMove: []
+        animSetAttackInStop: []
+        isDefaultAttack: 0
+        coolTime: 11
+        maxCharge: 1
+        baseCharge: 1
+        chargeTime: 0
+        manaCost: 15
+        maxCombo: 1
+        moveSpdInCasting: 0
+        moveSpdInAttack: 0
+        bCanCancelInCasting: 0
+        bCanCancelInAttack: 0
+        pBuffData:
+          ShowPPSetting: 0
+          PP_UseRange: 1
+          PP_UseDefaultTarget: 1
+          PP_UseInRangeHitboxes: 1
+          range: 3
+          targetLayerMask: 1
+          targetType: 2
+          isUsingCasterRotation: 0
+          inRangeHitboxes:
+          - id: 1
+          PP_UseDuration: 0
+          PP_UseRestrictionFlag: 0
+          PP_UseRemainTimeType: 0
+          PP_UseAreaStack: 0
+          PP_UseTick: 0
+          duration: 0
+          isTargetingAll: 0
+          restrictionFlag: 0
+          remainTimeType: 0
+          maxAreaStack: 1
+          isUsingTick: 0
+          tickCycleTime: 0
+          maxTickStack: 1
+          rangeRadius: 2
+          raiseAbility: 1.25
+        buffDuration: 10
+        rangeFXPrefab: {fileID: -22901999110006120, guid: ee46df05de6816d48bd682f6262fa2e3, type: 3}
+    00000001:
+      type: {class: SphereHitcast, ns: YS, asm: Assembly-CSharp}
+      data:
+        offset: {x: 0, y: 0, z: 0}
+        direction: {x: 0, y: 0, z: 0}
+        maxDistance: 0.0001
+        rangeTypeFlag: 2
+        startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+        endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+        areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+        radius: 0

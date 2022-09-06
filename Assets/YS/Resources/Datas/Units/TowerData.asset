@@ -1,0 +1,491 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b8ca4118472944b8e5fbfd340717d3, type: 3}
+  m_Name: TowerData
+  m_EditorClassIdentifier: 
+  towerData:
+  - index: 0
+    data:
+      id: 0
+  - index: 1
+    data:
+      id: 1
+  - index: 2
+    data:
+      id: 2
+  - index: 3
+    data:
+      id: 3
+  - index: 4
+    data:
+      id: 4
+  - index: 5
+    data:
+      id: 5
+  references:
+    version: 1
+    00000000:
+      type: {class: Tower/TowerData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 829298893608352086, guid: edcd90089232de54191f27cb5d92005c, type: 3}
+        name: "\uC5BC\uC74C\uBE59\uBCBD"
+        desc: "\uC5BC\uC74C\uBE59\uBCBD \uC124\uBA85"
+        icon: {fileID: 21300000, guid: c93371482554cbe48a6380d2b4e9fa90, type: 3}
+        attribute: 2
+        size: 3
+        baseMaxHP: 35
+        baseMaxMP: 0
+        baseHPRegen: 7
+        baseMPRegen: 0
+        physxPower: 0
+        magicPower: 0
+        armor: 0.3
+        armorPnt: 0
+        atkSpd: 0
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: -6
+        incHpPerLv: 40
+        incMpPerLv: 0
+        incHPRegenPerLv: 1
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0.01
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: e41269244be0b234d91877c10e526f33, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove: []
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: e41269244be0b234d91877c10e526f33, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 0}
+        skillDatas: []
+        index: 0
+        towerAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Tower+BaseTowerAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 1
+        soulcards: 
+        spawnCost: 220
+        animSetSpawn:
+        - track: 0
+          anim: {fileID: 11400000, guid: e41269244be0b234d91877c10e526f33, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+    00000001:
+      type: {class: Tower/TowerData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: -375506355620927885, guid: 4b80b6b4d3d34aa429d169bccc6a3c9e, type: 3}
+        name: "\uACE0\uB4DC\uB984\uD0C0\uC6CC"
+        desc: "\uACE0\uB4DC\uB984 \uD0C0\uC6CC \uC124\uBA85"
+        icon: {fileID: 21300000, guid: a9877360851cf244d91ed9a4ceff8431, type: 3}
+        attribute: 2
+        size: 3
+        baseMaxHP: 175
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 13
+        magicPower: 0
+        armor: 0.09
+        armorPnt: 0.1
+        atkSpd: 1.2
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: -2
+        incHpPerLv: 8
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 2
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0.004
+        incArmorPntPerLv: 0.0075
+        incAtkSpdPerLv: 0.03
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 2fbd39adaf747014fb3a0bed54abda03, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.4667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove: []
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: d08adb4da02d5cb4c8bb129e011d2398, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.5333
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 540923ec5eaf9e34bb0367cd10ecd407, type: 2}
+        skillDatas: []
+        index: 1
+        towerAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Tower+BaseTowerAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        soulcards: 
+        spawnCost: 250
+        animSetSpawn:
+        - track: 0
+          anim: {fileID: 11400000, guid: d08adb4da02d5cb4c8bb129e011d2398, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.5333
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+    00000002:
+      type: {class: Tower/TowerData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 3905653876548214058, guid: b44f527f68500a94dbb4698bac568870, type: 3}
+        name: "\uC5BC\uC74C\uD22C\uC11D\uAE30"
+        desc: 
+        icon: {fileID: 21300000, guid: c6e1e2cfb4ee4054bbfcf4ae6186236a, type: 3}
+        attribute: 2
+        size: 3
+        baseMaxHP: 145
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 32
+        magicPower: 0
+        armor: 0.05
+        armorPnt: 0.17
+        atkSpd: 1.1
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: -2
+        incHpPerLv: 5
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 4
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0.0025
+        incArmorPntPerLv: 0.0075
+        incAtkSpdPerLv: 0.03
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 7229f40709b0941468039cda4b8365e3, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove: []
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 7229f40709b0941468039cda4b8365e3, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: aa153a76c26f5ae49b73d9ea1a17b903, type: 2}
+        skillDatas: []
+        index: 2
+        towerAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Tower+BaseTowerAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        soulcards: 
+        spawnCost: 300
+        animSetSpawn:
+        - track: 0
+          anim: {fileID: 11400000, guid: 7229f40709b0941468039cda4b8365e3, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+    00000003:
+      type: {class: Tower/TowerData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 266189251048845674, guid: 3f84a279b77f9394292422027a2dc800, type: 3}
+        name: "\uC11D\uAD81\uD0C0\uC6CC"
+        desc: 
+        icon: {fileID: 21300000, guid: 04f18ff7f75ecd34db61f416b4ce6d3d, type: 3}
+        attribute: 0
+        size: 0
+        baseMaxHP: 300
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 17
+        magicPower: 0
+        armor: 0
+        armorPnt: 0
+        atkSpd: 2.7
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 0
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 5b4ab241332270345a6dfbf568c2c21a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove: []
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 5b4ab241332270345a6dfbf568c2c21a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: c0585870fae48f649871bc6f371c858a, type: 2}
+        skillDatas: []
+        index: 3
+        towerAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Tower+BaseTowerAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        soulcards: 
+        spawnCost: 370
+        animSetSpawn:
+        - track: 0
+          anim: {fileID: 11400000, guid: 5b4ab241332270345a6dfbf568c2c21a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+    00000004:
+      type: {class: Tower/TowerData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4475258653303796886, guid: b3818b571c9c4ae42a7a6818650d287b, type: 3}
+        name: "\uB808\uC774\uC800\uD0C0\uC6CC"
+        desc: 
+        icon: {fileID: 21300000, guid: 14a5183836e583142be9b98923a7d083, type: 3}
+        attribute: 0
+        size: 0
+        baseMaxHP: 420
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 13
+        magicPower: 0
+        armor: 0
+        armorPnt: 0
+        atkSpd: 1.5
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 0
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: f2df45fcac20dc245b76edd480108f1a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove: []
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: f2df45fcac20dc245b76edd480108f1a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: d38826f19215a534788eedd95c3af4da, type: 2}
+        skillDatas: []
+        index: 4
+        towerAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Tower+BaseTowerAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        soulcards: 
+        spawnCost: 350
+        animSetSpawn:
+        - track: 0
+          anim: {fileID: 11400000, guid: f2df45fcac20dc245b76edd480108f1a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+    00000005:
+      type: {class: Tower/TowerData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: -1210646173598345194, guid: 474583d619ad14a4897cf51073c69b88, type: 3}
+        name: "\uC5BC\uC74C\uBD88\uAF43 \uD0C0\uC6CC"
+        desc: 
+        icon: {fileID: 21300000, guid: f0caba11f5b13484b8f7012f8bc93b4f, type: 3}
+        attribute: 0
+        size: 0
+        baseMaxHP: 550
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 22
+        magicPower: 0
+        armor: 0
+        armorPnt: 0
+        atkSpd: 1.2
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 0
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 75655ebeb90e27747916b27e98174dea, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove: []
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 75655ebeb90e27747916b27e98174dea, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 886b8ac67fc5c1f42992e03c2826216f, type: 2}
+        skillDatas: []
+        index: 5
+        towerAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Tower+BaseTowerAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        soulcards: 
+        spawnCost: 400
+        animSetSpawn:
+        - track: 0
+          anim: {fileID: 11400000, guid: 75655ebeb90e27747916b27e98174dea, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0

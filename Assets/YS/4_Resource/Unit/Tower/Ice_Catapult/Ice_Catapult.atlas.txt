@@ -1,0 +1,9 @@
+Ice_Catapult.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+레이어 5 복사
+bounds:313,2,310,287
+rotate:90
+용지
+bounds:2,3,309,309

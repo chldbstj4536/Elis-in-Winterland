@@ -1,0 +1,405 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3368046834377599070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3368046834377599065}
+  - component: {fileID: 1036917124}
+  m_Layer: 0
+  m_Name: Skill_05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3368046834377599065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834377599070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3368046834486054759}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1036917124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834377599070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa63029e0e2e524293edcb7db2bd3b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 1
+  skill_Name: "\uB0C9\uAE30\uC758 \uC228\uACB0"
+  skill_Level: 0
+  skillType: 0
+  desciption: 
+  manaCoast: 0
+  coolTime: 0
+  Adress: 0
+  VFXs:
+  - {fileID: 6917971197702594414, guid: cdc00d6c837951840a6f7f517d26d952, type: 3}
+  - {fileID: 5885314734212015702, guid: c70277decfa629741acd2535d24e824b, type: 3}
+  VFXsIndex: 
+  duringTime: 5
+  isFinish: 0
+  TestObject: {fileID: 0}
+--- !u!1 &3368046834486054756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3368046834486054759}
+  - component: {fileID: 3368046834486054758}
+  m_Layer: 0
+  m_Name: (Single)SkillManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3368046834486054759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834486054756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3368046834660454044}
+  - {fileID: 3368046834957128161}
+  - {fileID: 3368046835057440379}
+  - {fileID: 3368046835006603604}
+  - {fileID: 3368046834930524568}
+  - {fileID: 3368046834377599065}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368046834486054758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834486054756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa9ff72e721c4fa49b2f4c75bfba7abb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skills: []
+--- !u!1 &3368046834660454045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3368046834660454044}
+  - component: {fileID: 3368046834660454047}
+  m_Layer: 0
+  m_Name: Skill_00
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3368046834660454044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834660454045}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3368046834486054759}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368046834660454047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834660454045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc657099149c7c4bb60eaef125be268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  skill_Name: "\uD639\uD55C\uC758 \uBD84\uB178"
+  skill_Level: 0
+  skillType: 1
+  desciption: 
+  manaCoast: 0
+  coolTime: 0
+  Adress: 0
+  VFXs:
+  - {fileID: 7403707964041694574, guid: 8284deb2cf752454c9def44ddda6683e, type: 3}
+  - {fileID: 526954840299904687, guid: 04b121691a6ac8c47ae2d508b528a46a, type: 3}
+  - {fileID: 4166901936617678849, guid: ed173893ce51e5b4796a37968486438e, type: 3}
+  - {fileID: 8111934711857039407, guid: 3934e26f27cc3354f819204b4bcb94bf, type: 3}
+  - {fileID: 674959233224607862, guid: 5bde554c10770c44aa10e0ecb31124f3, type: 3}
+  VFXsIndex: 
+  duringTime: 5
+  projectile_Count: 15
+  projectile_Term: 0.2
+  speed: 0.1
+  skill_Range: 4
+--- !u!1 &3368046834930524569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3368046834930524568}
+  - component: {fileID: 3368046834930524571}
+  m_Layer: 0
+  m_Name: Skill_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3368046834930524568
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834930524569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3368046834486054759}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368046834930524571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834930524569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc657099149c7c4bb60eaef125be268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 4
+  skill_Name: "\uD639\uD55C\uC758 \uBD84\uB178"
+  skill_Level: 0
+  skillType: 1
+  desciption: 
+  manaCoast: 0
+  coolTime: 0
+  Adress: 0
+  VFXs: []
+  VFXsIndex: 
+  duringTime: 0
+  projectile_Count: 0
+  projectile_Term: 0
+  speed: 0
+  skill_Range: 0
+--- !u!1 &3368046834957128166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3368046834957128161}
+  - component: {fileID: 3368046834957128160}
+  m_Layer: 0
+  m_Name: Skill_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3368046834957128161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834957128166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3368046834486054759}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368046834957128160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046834957128166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc657099149c7c4bb60eaef125be268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 5
+  skill_Name: "\uD639\uD55C\uC758 \uBD84\uB178"
+  skill_Level: 0
+  skillType: 1
+  desciption: 
+  manaCoast: 0
+  coolTime: 0
+  Adress: 0
+  VFXs: []
+  VFXsIndex: 
+  duringTime: 0
+  projectile_Count: 0
+  projectile_Term: 0
+  speed: 0
+  skill_Range: 0
+--- !u!1 &3368046835006603605
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3368046835006603604}
+  - component: {fileID: 3368046835006603607}
+  m_Layer: 0
+  m_Name: Skill_03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3368046835006603604
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046835006603605}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3368046834486054759}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368046835006603607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046835006603605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc657099149c7c4bb60eaef125be268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 3
+  skill_Name: "\uD639\uD55C\uC758 \uBD84\uB178"
+  skill_Level: 0
+  skillType: 1
+  desciption: 
+  manaCoast: 0
+  coolTime: 0
+  Adress: 0
+  VFXs: []
+  VFXsIndex: 
+  duringTime: 0
+  projectile_Count: 0
+  projectile_Term: 0
+  speed: 0
+  skill_Range: 0
+--- !u!1 &3368046835057440376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3368046835057440379}
+  - component: {fileID: 3368046835057440378}
+  m_Layer: 0
+  m_Name: Skill_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3368046835057440379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046835057440376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3368046834486054759}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3368046835057440378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3368046835057440376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bc657099149c7c4bb60eaef125be268, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 2
+  skill_Name: "\uD639\uD55C\uC758 \uBD84\uB178"
+  skill_Level: 0
+  skillType: 1
+  desciption: 
+  manaCoast: 0
+  coolTime: 0
+  Adress: 0
+  VFXs: []
+  VFXsIndex: 
+  duringTime: 0
+  projectile_Count: 0
+  projectile_Term: 0
+  speed: 0
+  skill_Range: 0

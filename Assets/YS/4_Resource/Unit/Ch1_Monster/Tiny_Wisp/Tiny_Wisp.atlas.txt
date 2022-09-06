@@ -1,0 +1,14 @@
+Tiny_Wisp.png
+size:512,512
+filter:Linear,Linear
+pma:true
+Tail
+bounds:139,30,54,51
+rotate:90
+head
+bounds:2,2,135,187
+lip_in
+bounds:139,86,103,83
+rotate:90
+용지
+bounds:2,191,309,309

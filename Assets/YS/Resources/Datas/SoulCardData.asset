@@ -1,0 +1,1256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0332629d2de7573488626c15f6c5fd58, type: 3}
+  m_Name: SoulCardData
+  m_EditorClassIdentifier: 
+  soulCardDatas:
+  - index: 0
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC6D0\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 I"
+      desc: "\uACF5\uACA9\uB825\uACFC \uACF5\uACA9\uC18D\uB3C4 \uC0C1\uC2B9 \uAC01\uAC01
+        N% > N% > N%"
+      icon: {fileID: 0}
+      effectData:
+        id: 0
+  - index: 1
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC6D0\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 I - \uD788\uB4E0"
+      desc: "\uACF5\uACA9 \uAD6C\uCCB4 \uB0A0\uC544\uAC00\uB294 \uC18D\uB3C4 \uC99D\uAC00
+        N%"
+      icon: {fileID: 0}
+      effectData:
+        id: 1
+  - index: 2
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC6D0\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 II"
+      desc: "\uAE30\uBCF8 \uACF5\uACA9 \uAD6C\uCCB4 \uD53C\uACA9\uC2DC \uD53C\uACA9\uB300\uC0C1\uC5D0\uAC8C
+        \uD55C\uBC88 \uB354 \uB370\uBBF8\uC9C0\uB97C \uC785\uD798"
+      icon: {fileID: 0}
+      effectData:
+        id: 2
+  - index: 3
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC6D0\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 II - \uD788\uB4E0"
+      desc: "\uAD6C\uCCB4\uC5D0 \uBAAC\uC2A4\uD130 \uD53C\uACA9\uC2DC \uD53C\uACA9\uB300\uC0C1
+        \uBC18\uACBD\uC5D0 \uAE30\uBCF8\uACF5\uACA9 \uB300\uBE44 N%\uC758 \uD3ED\uD30C
+        \uB370\uBBF8\uC9C0 \uC785\uD798"
+      icon: {fileID: 0}
+      effectData:
+        id: 3
+  - index: 4
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC6D0\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 III"
+      desc: "\uAE30\uBCF8\uACF5\uACA9 \uAD6C\uCCB4 \uAC1C\uCCB4\uC218 \uC99D\uAC00
+        1 > 2 > 3\uAC1C\n\uAE30\uBCF8\uACF5\uACA9\uC774 \uD0C0\uAC8C\uD305\uC77C
+        \uC2DC \uACF5\uACA9\uC0AC\uAC70\uB9AC \uB0B4\uC758 \uBB34\uC791\uC704 n\uC758
+        \uB300\uC0C1\uC5D0\uAC8C \uCD94\uAC00\uC801\uC73C\uB85C \uD22C\uC0AC\uCCB4\uB97C
+        \uB0A0\uB9B0\uB2E4"
+      icon: {fileID: 0}
+      effectData:
+        id: 4
+  - index: 5
+    data:
+      type: 0
+      grade: 0
+      weight: 10
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC6D0\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 III - \uD788\uB4E0"
+      desc: "n\uD655\uB960\uB85C \uAD6C\uCCB4\uC5D0 \uB9DE\uC740 \uC801\uC740 \uC2A4\uD134\uC0C1\uD0DC\uAC00
+        \uB41C\uB2E4."
+      icon: {fileID: 0}
+      effectData:
+        id: 5
+  - index: 6
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uADFC\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 I"
+      desc: "\uACF5\uACA9\uB825\uACFC \uACF5\uACA9\uC18D\uB3C4 \uC0C1\uC2B9"
+      icon: {fileID: 0}
+      effectData:
+        id: 6
+  - index: 7
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uADFC\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 I - \uD788\uB4E0"
+      desc: "\uACF5\uACA9\uBC94\uC704\uAC00 n\uC0C1\uC2B9\uD55C\uB2E4."
+      icon: {fileID: 0}
+      effectData:
+        id: 7
+  - index: 8
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uADFC\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 II"
+      desc: "\uD55C\uBC88 \uB354 \uB370\uBBF8\uC9C0\uB97C \uC785\uD78C\uB2E4"
+      icon: {fileID: 0}
+      effectData:
+        id: 8
+  - index: 9
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uADFC\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 II - \uD788\uB4E0"
+      desc: "\uBAAC\uC2A4\uD130 \uD53C\uACA9\uC2DC \uD53C\uACA9\uB300\uC0C1 \uBC18\uACBD\uC5D0
+        \uAE30\uBCF8\uACF5\uACA9 \uB300\uBE44 N%\uC758 \uD3ED\uD30C \uB370\uBBF8\uC9C0\uB97C
+        \uC785\uD78C\uB2E4"
+      icon: {fileID: 0}
+      effectData:
+        id: 9
+  - index: 10
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uADFC\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 III"
+      desc: "\uAE30\uBCF8 \uACF5\uACA9 \uC2DC \uC911\uCCA9\uC774 \uC313\uC774\uBA70,
+        \uC911\uCCA9 \uC2DC \uCE58\uBA85\uD0C0\uB85C \uB370\uBBF8\uC9C0\uB97C \uC785\uD78C\uB2E4."
+      icon: {fileID: 0}
+      effectData:
+        id: 10
+  - index: 11
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uADFC\uAC70\uB9AC \uAE30\uBCF8 \uACF5\uACA9 III - \uD788\uB4E0"
+      desc: "X\uC911\uCCA9\uC758 \uCD5C\uB300\uB85C \uC778\uD55C \uCE58\uBA85\uD0C0\uB97C
+        \uC785\uC740 \uB300\uC0C1\uC758 \uC801\uC740 N\uD68C \uB3D9\uC548 \uCE58\uBA85\uD0C0\uB85C
+        \uB370\uBBF8\uC9C0\uB97C \uC785\uB294\uB2E4."
+      icon: {fileID: 0}
+      effectData:
+        id: 11
+  - index: 12
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uACF5\uD1B5 \uAD81\uADF9\uAE30 \uCE74\uB4DC"
+      desc: "\uAD81\uADF9\uAE30 \uC0AC\uC6A9\uD69F\uC218 \uC99D\uAC00"
+      icon: {fileID: 0}
+      effectData:
+        id: 12
+  - index: 13
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uACF5\uD1B5 \uB300\uC26C\uAE30 \uCE74\uB4DC"
+      desc: "\uB300\uC26C\uAE30 \uC0AC\uC6A9\uD69F\uC218 \uC99D\uAC00"
+      icon: {fileID: 0}
+      effectData:
+        id: 13
+  - index: 14
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uACF5\uD1B5 \uB300\uC26C\uAE30 \uD788\uB4E0"
+      desc: "\uB300\uC26C\uAE30 \uC0AC\uC6A9 \uD6C4 n\uCD08\uAC04 \uBB34\uC801"
+      icon: {fileID: 0}
+      effectData:
+        id: 14
+  - index: 15
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uACF5\uACA9 \uD0C0\uC6CC I"
+      desc: "\uACF5\uACA9\uB825\uACFC \uACF5\uACA9\uC18D\uB3C4\uAC00 n% \uC99D\uAC00"
+      icon: {fileID: 0}
+      effectData:
+        id: 15
+  - index: 16
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uACF5\uACA9 \uD0C0\uC6CC II"
+      desc: "\uB9E4 \uD68C \uACF5\uACA9\uB9C8\uB2E4 \uC911\uCCA9\uC774 \uC313\uC774\uACE0
+        \uD574\uB2F9\uC911\uCCA9\uC774 n\uD68C \uC911\uCCA9\uB418\uBA74 \uD574\uB2F9
+        \uD68C\uB54C \uD53C\uACA9\uB2F9\uD55C \uB300\uC0C1\uC744 \uB4A4\uB85C \uBC00\uBA74\uC11C
+        \uC911\uCCA9\uC744 \uCD08\uAE30\uD654\uD55C\uB2E4."
+      icon: {fileID: 0}
+      effectData:
+        id: 16
+  - index: 17
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uBC29\uC5B4 \uD0C0\uC6CC I"
+      desc: "\uD53C\uD574\uB97C \uBC1B\uC744 \uC2DC \uBC18\uC0AC\uB370\uBBF8\uC9C0\uB97C
+        \uC785\uD78C\uB2E4"
+      icon: {fileID: 0}
+      effectData:
+        id: 17
+  - index: 18
+    data:
+      type: 0
+      grade: 0
+      weight: 89
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uBC29\uC5B4 \uD0C0\uC6CC II"
+      desc: "\uBC29\uC5B4 \uD0C0\uC6CC \uC18C\uD658\uC2DC 1\uAC00\uB85C\uC904 2\uCE78\uB0B4\uC5D0
+        \uC788\uB294 \uBAAC\uC2A4\uD130\uB4E4\uC5D0\uAC8C \"\uB3C4\uBC1C\"\uC744
+        \uAC78\uC5B4 \uC18C\uD658\uB41C \uBC29\uC5B4\uD0C0\uC6CC\uB97C \uACF5\uACA9\uD55C\uB2E4."
+      icon: {fileID: 0}
+      effectData:
+        id: 18
+  - index: 19
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uBC84\uD504 \uD0C0\uC6CC I"
+      desc: "\uBC84\uD504 \uBC94\uC704\uAC00 \uC99D\uAC00\uD55C\uB2E4"
+      icon: {fileID: 0}
+      effectData:
+        id: 19
+  - index: 20
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uBC84\uD504 \uD0C0\uC6CC II"
+      desc: "\uBC84\uD504 \uD0C0\uC6CC II"
+      icon: {fileID: 0}
+      effectData:
+        id: 20
+  - index: 21
+    data:
+      type: 0
+      grade: 0
+      weight: 93
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uD639\uD55C\uC758 \uBD84\uB178"
+      desc: "\uD639\uD55C\uC758 \uBD84\uB178"
+      icon: {fileID: 0}
+      effectData:
+        id: 21
+  - index: 22
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uB9CC\uB144\uC11C\uB9AC"
+      desc: "\uB9CC\uB144\uC11C\uB9AC"
+      icon: {fileID: 0}
+      effectData:
+        id: 20
+  - index: 23
+    data:
+      type: 0
+      grade: 0
+      weight: 39
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC11C\uB9AC\uC758 \uD3ED\uBC1C"
+      desc: "\uC11C\uB9AC\uC758 \uD3ED\uBC1C"
+      icon: {fileID: 0}
+      effectData:
+        id: 22
+  - index: 24
+    data:
+      type: 0
+      grade: 0
+      weight: 44
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC5BC\uC74C \uBC29\uBCBD"
+      desc: "\uC5BC\uC74C \uBC29\uBCBD"
+      icon: {fileID: 0}
+      effectData:
+        id: 23
+  - index: 25
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uB0C9\uAE30\uC758 \uC228\uACB0"
+      desc: "\uB0C9\uAE30\uC758 \uC228\uACB0"
+      icon: {fileID: 0}
+      effectData:
+        id: 20
+  - index: 26
+    data:
+      type: 0
+      grade: 0
+      weight: 28
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC9C0\uC6D0"
+      desc: "\uC9C0\uC6D0"
+      icon: {fileID: 0}
+      effectData:
+        id: 24
+  - index: 27
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uC2A4\uB178\uC6B0\uBCFC"
+      desc: "\uC2A4\uB178\uC6B0\uBCFC"
+      icon: {fileID: 0}
+      effectData:
+        id: 25
+  - index: 28
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uBE14\uB9AC\uC790\uB4DC"
+      desc: "\uBE14\uB9AC\uC790\uB4DC"
+      icon: {fileID: 0}
+      effectData:
+        id: 20
+  - index: 29
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: "\uD50C\uB798\uC2DC"
+      desc: "\uD50C\uB798\uC2DC"
+      icon: {fileID: 0}
+      effectData:
+        id: 26
+  - index: 30
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: 
+      desc: 
+      icon: {fileID: 0}
+      effectData:
+        id: 20
+  - index: 31
+    data:
+      type: 0
+      grade: 0
+      weight: 1
+      linkedSoulCards: 
+      removedSoulCards: 
+      name: 
+      desc: 
+      icon: {fileID: 0}
+      effectData:
+        id: 20
+  references:
+    version: 1
+    00000000:
+      type: {class: Unit/Skill/SRangeDA1Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 3
+        physxCoefs:
+        - 1.2
+        - 1.4
+        - 1.6
+        atkSpdCoefs:
+        - 1.2
+        - 1.4
+        - 1.6
+    00000001:
+      type: {class: Unit/Skill/SRangeDA1HiddenData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        projectileSpeedCoef:
+        - 10
+    00000002:
+      type: {class: Unit/Skill/SRangeDA2Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+    00000003:
+      type: {class: Unit/Skill/SRangeDA2HiddenData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 3
+        dmgRatioDA:
+        - 0.4
+        - 0.6
+        - 0.8
+        hitbox:
+          offset: {x: 0, y: 0, z: 0}
+          direction: {x: 0, y: 0, z: 0}
+          maxDistance: 0.0001
+          rangeTypeFlag: 0
+          startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+          endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+          areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+          radius: 1
+    00000004:
+      type: {class: Unit/Skill/SRangeDA3Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 3
+        projectileCount: 010000000200000003000000
+        angle: 45
+    00000005:
+      type: {class: Unit/Skill/SRangeDA3HiddenData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 1
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 1
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        stunChance: 5f000000
+        stunDuration:
+        - 3
+    00000006:
+      type: {class: Unit/Skill/SMeleeDA1Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 3
+        physxCoefs:
+        - 0
+        atkSpdCoefs:
+        - 0.2
+        - 0.4
+        - 0.6
+    00000007:
+      type: {class: Unit/Skill/SMeleeDA1HiddenData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        addRange: 1
+    00000008:
+      type: {class: Unit/Skill/SMeleeDA2Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+    00000009:
+      type: {class: Unit/Skill/SMeleeDA2HiddenData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        dmgRatioDA:
+        - 2
+        hitbox:
+          offset: {x: 0, y: 0, z: 0}
+          direction: {x: 0, y: 0, z: 0}
+          maxDistance: 0.0001
+          rangeTypeFlag: 0
+          startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+          endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+          areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+          radius: 0
+    0000000A:
+      type: {class: Unit/Skill/BaseSkill/SMeleeDA3Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 2
+        criticalStack: 0a00000005000000
+    0000000B:
+      type: {class: Unit/Skill/BaseSkill/SMeleeDA3HiddenData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        criticalCount: 03000000
+    0000000C:
+      type: {class: Unit/Skill/ActiveSkill/SUltimateSEData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        addMaxChargeCount: 03000000
+    0000000D:
+      type: {class: Unit/Skill/ActiveSkill/SDashSEData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        addMaxChargeCount: 00000000
+    0000000E:
+      type: {class: Unit/Skill/SDashSEHiddenData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        invincibleTime: 0
+    0000000F:
+      type: {class: Unit/Skill/SOffenceTower1Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        physxCoefs:
+        - 0
+        atkSpdCoefs:
+        - 0.25
+    00000010:
+      type: {class: Unit/Skill/SOffenceTower2Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        maxKnockbackStack: 05000000
+    00000011:
+      type: {class: Unit/Skill/SDefenceTower1Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        reflectionDamageRate: 0.1
+    00000012:
+      type: {class: Unit/Skill/SDefenceTower2Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        hitbox:
+          offset: {x: -1.3, y: 0, z: 0}
+          direction: {x: 0.31, y: 0, z: 0}
+          maxDistance: 2.6
+          rangeTypeFlag: 0
+          startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+          endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+          areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+          radius: 0.43
+        pTauntData:
+          ShowPPSetting: 0
+          PP_UseRange: 0
+          PP_UseDefaultTarget: 0
+          PP_UseInRangeHitboxes: 0
+          range: 0
+          targetLayerMask: 0
+          targetType: 0
+          isUsingCasterRotation: 0
+          inRangeHitboxes: []
+          PP_UseDuration: 1
+          PP_UseRestrictionFlag: 0
+          PP_UseRemainTimeType: 1
+          PP_UseAreaStack: 0
+          PP_UseTick: 0
+          duration: 2
+          isTargetingAll: 0
+          restrictionFlag: 0
+          remainTimeType: 1
+          maxAreaStack: 1
+          isUsingTick: 0
+          tickCycleTime: 0
+          maxTickStack: 1
+    00000013:
+      type: {class: Unit/Skill/SBuffTower1Data, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        additionalBuffRange: 1.6
+    00000014:
+      type: {class: , ns: , asm: }
+    00000015:
+      type: {class: Unit/Skill/SRageOfFrostData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 1
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 1
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        stunDuration: 3
+        projectilePrefab: {fileID: 534163709957121861, guid: be8db72c7dd9cc7409674cdd5ec119f6, type: 3}
+    00000016:
+      type: {class: Unit/Skill/SExplosionOfFrostData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        areaDuration: 3
+        areaTickCycle: 0.5
+        areaDamage: 25
+        areaFXPrefab: {fileID: -22901999110006120, guid: ee46df05de6816d48bd682f6262fa2e3, type: 3}
+        areaHitbox:
+          id: 27
+    00000017:
+      type: {class: Unit/Skill/SIceBulwarkData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 1
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 2
+        targetType: 7
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        damage: 25
+        hitFXPrefab: {fileID: -3951584689663012938, guid: e955e3c0e172922498e033ebbb2e2c45, type: 3}
+        hitbox:
+          id: 28
+    00000018:
+      type: {class: Unit/Skill/BaseSkill/SSupportData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 1
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 2
+        targetType: 4
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 1
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 1
+        tickCycleTime: 0.5
+        maxTickStack: 1
+        PP_AllowModifyStack: 1
+        maxStack: 1
+        baseDmg: 2
+        magicPowerCoef: 0.2
+    00000019:
+      type: {class: Unit/Skill/SSnowballData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 0
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 0
+        targetType: 0
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 0
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 0
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 0
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 0
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        enhancedSnowball: {fileID: 9179176359786328568, guid: 6e72dcef819e8ce4289ac2f0ebcd8f29, type: 3}
+    0000001A:
+      type: {class: Unit/Skill/SFlashData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 0
+        PP_UseDefaultTarget: 1
+        PP_UseInRangeHitboxes: 0
+        range: 0
+        targetLayerMask: 1
+        targetType: 2
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseDuration: 1
+        PP_UseRestrictionFlag: 0
+        PP_UseRemainTimeType: 1
+        PP_UseAreaStack: 0
+        PP_UseTick: 0
+        duration: 5
+        isTargetingAll: 0
+        restrictionFlag: 0
+        remainTimeType: 1
+        maxAreaStack: 1
+        isUsingTick: 0
+        tickCycleTime: 0
+        maxTickStack: 1
+        PP_AllowModifyStack: 0
+        maxStack: 1
+        armorCoef: 10
+        physxPowerCoef: 20
+        magicPowerCoef: 15
+    0000001B:
+      type: {class: SphereHitcast, ns: YS, asm: Assembly-CSharp}
+      data:
+        offset: {x: 0, y: 0, z: 0}
+        direction: {x: 0, y: 0, z: 0}
+        maxDistance: 0.0001
+        rangeTypeFlag: 0
+        startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+        endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+        areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+        radius: 3
+    0000001C:
+      type: {class: SphereHitcast, ns: YS, asm: Assembly-CSharp}
+      data:
+        offset: {x: 0, y: 0, z: 0}
+        direction: {x: 0, y: 0, z: 0}
+        maxDistance: 0.0001
+        rangeTypeFlag: 0
+        startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+        endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+        areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+        radius: 3

@@ -1,0 +1,12 @@
+Ani_IceGuardian.png
+size:256,512
+filter:Linear,Linear
+pma:true
+레이어 1
+bounds:2,2,192,286
+레이어 2
+bounds:2,297,42,103
+rotate:90
+레이어 3
+bounds:107,290,49,94
+rotate:90

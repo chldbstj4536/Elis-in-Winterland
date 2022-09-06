@@ -1,0 +1,75 @@
+diff a/Assets/MORU/Scripts/UI/UIViewer/UIViewer.cs b/Assets/MORU/Scripts/UI/UIViewer/UIViewer.cs	(rejected hunks)
+@@ -196,73 +196,10 @@
+                         m_Context["CurrentStageStar"] = value.Star;
+                     }
+                 }
+-                else { m_Context["CurrentCharacter/AttackRange"] = 0; }
+-
+-                m_Context["Icon_ATTACK_SPEED"] = UserSaveData.BindingSO.Icon_ATTACK_SPEED;
+-                m_Context["CurrentCharacter/Base_AttackSpeed"] = UserData.GetCurrentCharacterDB.Data.atkSpd;                                //ĳ���� �⺻ ���ݼӵ�
+-                m_Context["CurrentCharacter/Base_AttackSpeedInc_PerLV"] = UserData.GetCurrentCharacterDB.Data.incAtkSpdPerLv;               //ĳ���� �⺻ ���ݼӵ� ������ ������ (%)
+-                m_Context["CurrentCharacter/AttackSpeed"] = (UserData.GetCurrentCharacterDB.Data.atkSpd
+-                                                        + UserData.GetCurrentCharacterDB.Data.incAtkSpdPerLv * UserData.playerLevel);      //ĳ���� ���� ���ݼӵ�
+-
+-
+-                m_Context["Icon_MAGICPOWER"] = UserSaveData.BindingSO.Icon_MAGICPOWER;
+-                m_Context["CurrentCharacter/Base_MagicPower"] = UserData.GetCurrentCharacterDB.Data.magicPower;                             //ĳ���� �⺻ �ֹ���
+-                m_Context["CurrentCharacter/Base_MagicPowerInc_PerLV"] = UserData.GetCurrentCharacterDB.Data.incMagicPowerPerLv;            //ĳ���� �⺻ �ֹ��� ������ ������ (%)
+-                m_Context["CurrentCharacter/MagicPower"] = (UserData.GetCurrentCharacterDB.Data.magicPower
+-                                                        + UserData.GetCurrentCharacterDB.Data.incMagicPowerPerLv * UserData.playerLevel);   //ĳ���� ���� �ֹ���
+-
+-
+-                m_Context["Icon_COOLTIME_REDUCE"] = UserSaveData.BindingSO.Icon_COOLTIME_REDUCE;
+-                m_Context["CurrentCharacter/Base_Cool_Reduce"] = UserData.GetCurrentCharacterDB.Data.cooldownReduction * 100;                             //ĳ���� �⺻ ��Ÿ�Ӱ�����(%)
+-                m_Context["CurrentCharacter/Base_Cool_Reduce_Inc_PerLV"] = UserData.GetCurrentCharacterDB.Data.incCdrPerLv * 100;            //ĳ���� �⺻ ��Ÿ�Ӱ����� ������ ������ (%)
+-                m_Context["CurrentCharacter/Cool_Reduce"] = (UserData.GetCurrentCharacterDB.Data.cooldownReduction
+-                                                        + UserData.GetCurrentCharacterDB.Data.incCdrPerLv * UserData.playerLevel) * 100;   //ĳ���� ���� ��Ÿ�Ӱ�����(%)
+-
+-
+-                m_Context["Icon_MOVESPEED"] = UserSaveData.BindingSO.Icon_MOVE_SPEED;
+-                m_Context["CurrentCharacter/Base_MoveSpeed"] = UserData.GetCurrentCharacterDB.Data.moveSpeed;                             //ĳ���� �⺻ �̵��ӵ�
+-                m_Context["CurrentCharacter/Base_MoveSpeed_Inc_PerLV"] = UserData.GetCurrentCharacterDB.Data.incMoveSpeed;            //ĳ���� �⺻ �̵��ӵ� ������ ������ (%)
+-                m_Context["CurrentCharacter/MoveSpeed"] = (UserData.GetCurrentCharacterDB.Data.moveSpeed
+-                                                        + UserData.GetCurrentCharacterDB.Data.incMoveSpeed * UserData.playerLevel);   //ĳ���� ���� �̵��ӵ�
+-
+-
+-                m_Context["Icon_DASH_SPEED"] = UserSaveData.BindingSO.Icon_DASH_SPEED;
+-                m_Context["CurrentCharacter/Base_DashSpeed"] = UserData.GetCurrentCharacterDB.Data.moveSpeed;                             //ĳ���� �⺻ ��üӵ�
+-                m_Context["CurrentCharacter/Base_DashSpeed_Inc_PerLV"] = UserData.GetCurrentCharacterDB.Data.incMoveSpeed;            //ĳ���� �⺻ ��üӵ� ������ ������ (%)
+-                m_Context["CurrentCharacter/DashSpeed"] = (UserData.GetCurrentCharacterDB.Data.moveSpeed
+-                                                        + UserData.GetCurrentCharacterDB.Data.incMoveSpeed * UserData.playerLevel);   //ĳ���� ���� ��üӵ� 
+-
+-
+-                m_Context["Icon_DASH_COOLTIME"] = UserSaveData.BindingSO.Icon_DASH_COOLTIME;
+-                m_Context["CurrentCharacter/Base_DashCool"] = UserData.GetCurrentCharacterDB.Data.moveSpeed * 100;                             //ĳ���� �⺻ ��üӵ�
+-                m_Context["CurrentCharacter/Base_DashCool_Inc_PerLV"] = UserData.GetCurrentCharacterDB.Data.incMoveSpeed * 100;            //ĳ���� �⺻ ��üӵ� ������ ������ (%)
+-                m_Context["CurrentCharacter/DashCool"] = (UserData.GetCurrentCharacterDB.Data.moveSpeed
+-                                                        + UserData.GetCurrentCharacterDB.Data.incMoveSpeed * UserData.playerLevel) * 100;   //ĳ���� ���� ��üӵ� 
+-                #endregion
+-
+-                #region #3-3 ��ų ������
+-
+-
+-                InitSkillData_Bind();
+-
+-                #endregion
+-                //m_Context["CurrentCharacter/Skeleton"] = UserData.GetCurrentCharacterDB.skeleton;
+-                //m_Context["CurrentCharacter/Skeleton"] = UserData.GetCurrentCharacterDB.skeleton;
+-                //m_Context["CurrentCharacter/Skeleton"] = UserData.GetCurrentCharacterDB.skeleton;
+-                //m_Context["CurrentCharacter/Skeleton"] = UserData.GetCurrentCharacterDB.skeleton;
+-                //m_Context["CurrentCharacter/Skeleton"] = UserData.GetCurrentCharacterDB.skeleton;
+-
+-
+-
+-                //m_Context["CurrentCharacter/SkinData"] = UserData.GetCurrentCharacterDB.current_Skin.SkinData;
+-                //m_Context["CurrentCharacter/SkinName"] = UserData.GetCurrentCharacterDB.current_Skin.Skin_Name;
+-                //m_Context["CurrentCharacter/SkinName"] = UserData.GetCurrentCharacterDB.current_Skin.Skin_Name;
+             }
+             #endregion
+ 
+ 
+-            #endregion
+-
+             #region #. �ΰ� ������
+             m_Context["Icon_ManaCost"] = UserSaveData.BindingSO.Icon_ManaCost;
+             m_Context["Icon_CoolTime"] = UserSaveData.BindingSO.Icon_CoolTime;

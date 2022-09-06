@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Fx_Useful_01
+  m_Shader: {fileID: 4800000, guid: 0d4a977eb1087dc43aaeecdeceb21651, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: d9e3398f9bb66c84283b7d52da38f340, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e9007bafa57ba7044ae7b55ea510ecff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: e69c7bb96b854fe408e44d9a11ebeeef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 74220fa582b60b24586cb98c58235dce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 9e127858e69537d49bc9b816086b706d, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistortAmount: 0.0248
+    - _DividedAmount: 0.4643928
+    - _Float0: 0.387
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0.8396226, g: 0, b: 0.2104349, a: 0}
+    - _Color1: {r: 0.25, g: 0.6768888, b: 1, a: 0}
+    - _DistortPanner: {r: 0.15, g: -0.2, b: 0, a: 0}
+    - _DistortPannerXY: {r: 0.3, g: -0.3, b: 0, a: 0}
+    - _MainTexPanner: {r: -1, g: 0, b: 0, a: 0}
+    - _custom1: {r: 2.86, g: 0, b: 0, a: 0}
+    - _tint: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

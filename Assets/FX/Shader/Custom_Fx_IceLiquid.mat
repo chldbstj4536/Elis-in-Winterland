@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Custom_Fx_IceLiquid
+  m_Shader: {fileID: 4800000, guid: 5057257cb8c935e48a4c0fb93ff32c13, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: f3619ebbcdf98194ea438f4ce1c77a78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0d5f9e2e4a22d504a94fcc94c7efd8c5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 59f6b5ab7c8c79c4abcccca9521b7576, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: d9e3398f9bb66c84283b7d52da38f340, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _tex4coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DistortAmount: 0.0681
+    - _DividedAmount: 0.44798237
+    - _Float0: 0.7916667
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0.8396226, g: 0, b: 0.21043493, a: 0}
+    - _Color1: {r: 0.25, g: 0.67688876, b: 1, a: 0}
+    - _DistortPanner: {r: 0.15, g: -0.2, b: 0, a: 0}
+    - _DistortPannerXY: {r: 0.3, g: -0.3, b: 0, a: 0}
+    - _custom1: {r: 16.2, g: -1.31, b: 0, a: 0}
+    - _tint: {r: 0.3441602, g: 0.4321569, b: 0.725, a: 1}
+  m_BuildTextureStacks: []

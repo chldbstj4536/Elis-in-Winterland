@@ -1,0 +1,20 @@
+Unstable_Lava.png
+size:1024,256
+filter:Linear,Linear
+pma:true
+Mid_1
+bounds:307,139,195,99
+buttom_1
+bounds:200,40,259,88
+stone_buttom
+bounds:461,13,124,79
+rotate:90
+stone_mid
+bounds:542,50,79,87
+stone_top
+bounds:504,139,99,76
+rotate:90
+top_1
+bounds:2,2,196,126
+레이어 4
+bounds:2,130,303,108

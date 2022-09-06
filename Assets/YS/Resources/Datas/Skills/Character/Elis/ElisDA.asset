@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665d0b594d1cfa64e93a48e7d90cf5fb, type: 3}
+  m_Name: ElisDA
+  m_EditorClassIdentifier: 
+  data:
+    skillName: "\uC5D8\uB9AC\uC2A4 \uAE30\uBCF8\uACF5\uACA9"
+    skillDesc: "\uC124\uBA85"
+    icon: {fileID: 21300000, guid: 09c1638b7a6a5a748aec112ff3583b89, type: 3}
+    maxLv: 1
+    activeSkillData:
+    - id: 0
+    passiveSkillDatas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: Unit/Skill/AElisDAData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 1
+        PP_UseDefaultTarget: 1
+        PP_UseInRangeHitboxes: 0
+        range: 3
+        targetLayerMask: 2
+        targetType: 4
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseCombo: 0
+        PP_UsePlayerOnly: 1
+        skillCastingType: 0
+        animSetCasting: []
+        animSetCastingInMove: []
+        animSetCastingInStop: []
+        animSetAttack:
+        - track: 0
+          anim: {fileID: 11400000, guid: c16e460f51604ef4a9d15b62d698645b, type: 2}
+          segments:
+          - timeScale: 1.5
+            startTime: 0
+            endTime: 1.5
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        animSetAttackInMove: []
+        animSetAttackInStop: []
+        isDefaultAttack: 1
+        coolTime: 0
+        maxCharge: 1
+        baseCharge: 1
+        chargeTime: 0
+        manaCost: 0
+        maxCombo: 1
+        moveSpdInCasting: 0
+        moveSpdInAttack: 0
+        bCanCancelInCasting: 0
+        bCanCancelInAttack: 0
+        rangeType: 0
+        isDirVector: 0
+        projectilePrefab: {fileID: 4095343917964116227, guid: 6aa893db258c2ea43bc8ec0b6a912c33, type: 3}
+        projectileSpeed: 1

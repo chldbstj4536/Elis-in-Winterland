@@ -1,0 +1,724 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b38dffc0245815543abcae192bee7672, type: 3}
+  m_Name: MonsterData
+  m_EditorClassIdentifier: 
+  monsterData:
+  - index: 0
+    data:
+      id: 0
+  - index: 1
+    data:
+      id: 1
+  - index: 2
+    data:
+      id: 2
+  - index: 3
+    data:
+      id: 3
+  - index: 4
+    data:
+      id: 4
+  - index: 5
+    data:
+      id: 5
+  - index: 6
+    data:
+      id: 6
+  - index: 7
+    data:
+      id: 7
+  - index: 8
+    data:
+      id: 8
+  - index: 9
+    data:
+      id: 4
+  - index: 10
+    data:
+      id: 4
+  references:
+    version: 1
+    00000000:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: 17b14170e023d1d439beb7f06594ee07, type: 3}
+        name: "\uD558\uAE09 \uBD88\uAF43\uC815\uB839"
+        desc: "\uAC00\uC7A5 \uC77C\uBC18\uC801\uC778 \uADFC\uC811\uACF5\uACA9\uC744
+          \uC218\uD589\uD558\uB294 \uBAAC\uC2A4\uD130\uC785\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: ac720660623e1a64e9a47c26d845bc3b, type: 3}
+        attribute: 1
+        size: 0
+        baseMaxHP: 100
+        baseMaxMP: 0
+        baseHPRegen: 5
+        baseMPRegen: 0
+        physxPower: 17
+        magicPower: 17
+        armor: 0.1
+        armorPnt: 0
+        atkSpd: 1.1
+        moveSpeed: 1.9
+        criticalRate: 8
+        cooldownReduction: 0
+        tempVar: 2
+        incHpPerLv: 13
+        incMpPerLv: 0
+        incHPRegenPerLv: 3
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 2
+        incMagicPowerPerLv: 2
+        incArmorPerLv: 0.01
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: d9af8486da385664fa6561ae50adf69d, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.6667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: 9ddc49c64e15a9f439a865f9ea943c37, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.0667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: d419fb0ee0c3fef4fb79f2d859a73b1b, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.6667
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 2c53fd4fd4e86104f938a27e80f51dae, type: 2}
+        skillDatas: []
+        index: 0
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+BaseMonsterAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        earnEXP: 15
+        earnSilver: 20
+        tempFluctuateStats:
+        - stat: 0
+          value: 30
+        - stat: 2
+          value: 3
+    00000001:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: 0730b4047ed4fc1428b72afd78266c90, type: 3}
+        name: "\uC791\uC740 \uB3C4\uAE68\uBE44\uBD88"
+        desc: "\uC791\uACE0 \uBE60\uB974\uAC8C \uC6C0\uC9C1\uC785\uB2C8\uB2E4.\n\uAC19\uC740
+          \uB300\uC0C1\uC744 \uACF5\uACA9\uD560 \uB54C\uB9C8\uB2E4 \uB370\uBBF8\uC9C0\uAC00
+          \uC99D\uAC00\uD569\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: a450a4ee5f01c9b468d69bf683c93de8, type: 3}
+        attribute: 1
+        size: 0
+        baseMaxHP: 50
+        baseMaxMP: 0
+        baseHPRegen: 3
+        baseMPRegen: 0
+        physxPower: 6
+        magicPower: 6
+        armor: 0.08
+        armorPnt: 0
+        atkSpd: 1.5
+        moveSpeed: 2.8
+        criticalRate: 13
+        cooldownReduction: 0
+        tempVar: 5
+        incHpPerLv: 5
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 2
+        incMagicPowerPerLv: 2
+        incArmorPerLv: 0.01
+        incArmorPntPerLv: 0.02
+        incAtkSpdPerLv: 0.05
+        incMoveSpeed: 0.03
+        incCriticalRatePerLv: 1
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 5b036c2ce7163e34b9e11392fe16c8cd, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: 34861935cfeb52f4d96d9efc5eaba70a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.9333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 0185f4121d13fe24689d0b77a2e75e6b, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.6667
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 061e034725020d145abdaafbbce1eaf8, type: 2}
+        skillDatas: []
+        index: 1
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+BaseMonsterAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        earnEXP: 17
+        earnSilver: 25
+        tempFluctuateStats:
+        - stat: 6
+          value: 0.3
+        - stat: 2
+          value: 3
+    00000002:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: eacc2c0db4f390f43b1634e3b96a22cd, type: 3}
+        name: "\uAC81\uC7C1\uC774 \uBD88\uAF43\uC815\uB839"
+        desc: "\uC544\uAD70 \uC720\uB2DB\uC774 \uC811\uADFC\uD558\uBA74 \uB3C4\uB9DD\uCE58\uB294
+          \uC6D0\uAC70\uB9AC\uACF5\uACA9\uC744 \uC218\uD589\uD558\uB294 \uBD88\uAF43\uC815\uB839\uC785\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: 8f393474684f4de4e8bb8f0e6fe83422, type: 3}
+        attribute: 1
+        size: 0
+        baseMaxHP: 90
+        baseMaxMP: 0
+        baseHPRegen: 3
+        baseMPRegen: 0
+        physxPower: 13
+        magicPower: 13
+        armor: 0.08
+        armorPnt: 0.2
+        atkSpd: 0.8
+        moveSpeed: 0.8
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 2
+        incHpPerLv: 5
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 2
+        incMagicPowerPerLv: 2
+        incArmorPerLv: 0.01
+        incArmorPntPerLv: 0.02
+        incAtkSpdPerLv: 0.05
+        incMoveSpeed: 0.03
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 197a1dda08d127d4b9f66401ecb86c9b, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: f837c0e262d6551479f0103d2eafdf49, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.6667
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+          - timeScale: 1
+            startTime: 0.6667
+            endTime: 2
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: ecc87634c694b1a4a8cb54df75fed839, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 61ba478576e472441bd5015202c6df6b, type: 2}
+        skillDatas: []
+        index: 2
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+CowardlyFlameSpiritAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 0
+        earnEXP: 17
+        earnSilver: 25
+        tempFluctuateStats:
+        - stat: 2
+          value: 3
+        - stat: 5
+          value: 0.1
+    00000003:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: d9a0b378ac7f0d64597043918f2326ec, type: 3}
+        name: "\uBD88\uC548\uC815\uD55C \uC6A9\uC554"
+        desc: "\uD0C0\uC6CC, \uD639\uC740 \uCF54\uC5B4\uC5D0 \uC811\uADFC\uD558\uBA74
+          \uC2A4\uC2A4\uB85C\uB97C \uC0B0\uD654\uC2DC\uCF1C \uB9C9\uB300\uD55C \uD53C\uD574\uB97C
+          \uC785\uD799\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: 552d63850a453b3459bf7914ec8ada52, type: 3}
+        attribute: 4
+        size: 0
+        baseMaxHP: 130
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 60
+        magicPower: 60
+        armor: 0.05
+        armorPnt: 0.15
+        atkSpd: 1
+        moveSpeed: 0.9
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 3
+        incHpPerLv: 7
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 8
+        incMagicPowerPerLv: 8
+        incArmorPerLv: 0.007
+        incArmorPntPerLv: 0.02
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0.035
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: bd13826f1c1d0a5458519c36b38777dd, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: 7e6cd7e084099de42b81b784f2a49f94, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.6667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 99462b659167015418ba74d9739705da, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 0b677cac2adcf524e959b428c84c99a1, type: 2}
+        skillDatas: []
+        index: 3
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+BaseMonsterAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 1
+        earnEXP: 22
+        earnSilver: 32
+        tempFluctuateStats:
+        - stat: 5
+          value: 0.05
+        - stat: 7
+          value: 0.01
+        - stat: 2
+          value: 30
+    00000004:
+      type: {class: , ns: , asm: }
+    00000005:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: bb7381f792b341e4ba88dd3e65631709, type: 3}
+        name: "\uAC80\uC740 \uBD88\uAF43\uC815\uB839"
+        desc: "\uACF5\uACA9\uB300\uC0C1\uC744 \uAD00\uD1B5\uD558\uC5EC \uADF8 \uB4A4\uC5D0
+          \uC788\uB294 \uACF5\uACA9\uB300\uC0C1\uC5D0\uAC8C\uB3C4 \uD53C\uD574\uB97C
+          \uC785\uD788\uB294 \uAC15\uB825\uD55C \uC6D0\uAC70\uB9AC \uACF5\uACA9\uC744
+          \uD558\uB294 \uBD88\uAF43\uC815\uB839\uC785\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: c0a7624eee0c31547a325fab403edc31, type: 3}
+        attribute: 1
+        size: 0
+        baseMaxHP: 75
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 27
+        magicPower: 27
+        armor: 0.05
+        armorPnt: 0.09
+        atkSpd: 1.2
+        moveSpeed: 0.7
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 3
+        incHpPerLv: 5
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 6
+        incMagicPowerPerLv: 6
+        incArmorPerLv: 0.007
+        incArmorPntPerLv: 0.012
+        incAtkSpdPerLv: 0.04
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 11
+          anim: {fileID: 11400000, guid: 6888ed1f313cec04dae4d26159280736, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.6667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: 99b44d0edbf852840b28daa5526d3c11, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 0595924bea906ae4bb7cc2bda5000580, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.6667
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: cd8bcc03ed9bc82418efa31458a8b639, type: 2}
+        skillDatas: []
+        index: 5
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+BaseMonsterAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 1
+        earnEXP: 30
+        earnSilver: 45
+        tempFluctuateStats:
+        - stat: 2
+          value: 6
+        - stat: 6
+          value: 0.007
+    00000006:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: 598a2206cab859b44911ede5c68e9a9d, type: 3}
+        name: "\uBD88\uAF43\uBC15\uC950"
+        desc: "\uC790\uC2E0\uC758 \uC804\uBC29 \uAD11\uBC94\uC704 \uC601\uC5ED\uC5D0
+          \uD654\uC0C1\uD53C\uD574\uB97C \uC785\uD788\uB294 \uC7AC\uBE60\uB974\uACE0
+          \uAC15\uB825\uD55C \uBAAC\uC2A4\uD130\uC785\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: 008cbf7e4e136434ab29435606e50ae3, type: 3}
+        attribute: 4
+        size: 0
+        baseMaxHP: 105
+        baseMaxMP: 0
+        baseHPRegen: 8
+        baseMPRegen: 0
+        physxPower: 13
+        magicPower: 8
+        armor: 0.15
+        armorPnt: 0
+        atkSpd: 0.25
+        moveSpeed: 0.95
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 3
+        incHpPerLv: 7
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 2
+        incMagicPowerPerLv: 1
+        incArmorPerLv: 0.008
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0.005
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 6dd1667370e8c264e82e5d1996d30b4e, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.6667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: 005646583477a7641a71ee9a6b3f1ee2, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.6667
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: d4d70056ef75ea444b1ed2219393e0fa, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 318c825fc3df7b142bfd45caa8fdf0db, type: 2}
+        skillDatas: []
+        index: 6
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+BaseMonsterAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 1
+        earnEXP: 36
+        earnSilver: 38
+        tempFluctuateStats:
+        - stat: 0
+          value: 10
+        - stat: 2
+          value: 6
+        - stat: 3
+          value: 2
+        - stat: 6
+          value: 0.007
+    00000007:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: 02d47af06e9769941a3c1305c0f69af9, type: 3}
+        name: "\uD654\uC5FC\uC758 \uC815\uB82C\uC220\uC0AC"
+        desc: "\uC8FC\uAE30\uC801\uC73C\uB85C \uC790\uC2E0\uC758 \uC8FC\uBCC0\uC758
+          \uBAAC\uC2A4\uD130\uB4E4\uC744 \uD68C\uBCF5\uC2DC\uD0B5\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: 187689756817bf547b747e8efbb1a8c6, type: 3}
+        attribute: 0
+        size: 0
+        baseMaxHP: 16
+        baseMaxMP: 0
+        baseHPRegen: 4
+        baseMPRegen: 0
+        physxPower: 13
+        magicPower: 20
+        armor: 0.008
+        armorPnt: 0
+        atkSpd: 1.1
+        moveSpeed: 0.83
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 6
+        incHpPerLv: 8
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 1
+        incMagicPowerPerLv: 4
+        incArmorPerLv: 0.005
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0.008
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: decfdcc17e0f53b4aa97b24f89a931ff, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: a1bf2cf1ae1367248b301ad95aabc067, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: c6c67c611e6ef6b43ac2bdbf43570664, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 206c73a92d569994cb3632a677baab3e, type: 2}
+        skillDatas:
+        - {fileID: 11400000, guid: 735a13df2cc362742aadcbf432a77bf0, type: 2}
+        index: 7
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+BaseMonsterAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 2
+        earnEXP: 65
+        earnSilver: 51
+        tempFluctuateStats:
+        - stat: 0
+          value: 8
+        - stat: 2
+          value: 2
+        - stat: 3
+          value: 12
+        - stat: 6
+          value: 0.007
+    00000008:
+      type: {class: Monster/MonsterData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 4361011897068530601, guid: 733686bc4c9b6f14e8301318deb33c1b, type: 3}
+        name: "\uC6A9\uC554 \uD22C\uC11D\uAE30"
+        desc: "\uB9E4\uC6B0 \uAE34 \uC0AC\uC815\uAC70\uB9AC\uB97C \uAC00\uC9C4 \uACF5\uC131\uB2A5\uB825\uC5D0
+          \uD2B9\uD654\uB41C \uC704\uD611\uC801\uC778 \uBAAC\uC2A4\uD130\uC785\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: bdfc7a92c8adc984e8d9cd8b83748d4a, type: 3}
+        attribute: 3
+        size: 2
+        baseMaxHP: 195
+        baseMaxMP: 0
+        baseHPRegen: 4
+        baseMPRegen: 0
+        physxPower: 41
+        magicPower: 0
+        armor: 0.2
+        armorPnt: 0.15
+        atkSpd: 0.12
+        moveSpeed: 0.3
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 9
+        incHpPerLv: 8
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 6
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0.008
+        incArmorPntPerLv: 0.0065
+        incAtkSpdPerLv: 0.002
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: da1bef28b79fcc048a3db6b680c25b51, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: 68fb2bfce2a7e7a4998509b117309f9a, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.6667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 3d98097b1cd7e044382ddac7aaba6fee, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: 24b0fe54b546a96488eb2afc7781cc95, type: 2}
+        skillDatas: []
+        index: 8
+        monsterAI:
+          GuidAssignmentFailed: 0
+          GUID: 
+          _typeNameAndAssembly: YS.Monster+BaseMonsterAI, Assembly-CSharp
+          _suppressLogs: 0
+        category: 2
+        earnEXP: 75
+        earnSilver: 62
+        tempFluctuateStats:
+        - stat: 0
+          value: 8
+        - stat: 2
+          value: 13
+        - stat: 6
+          value: 0.02

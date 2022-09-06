@@ -1,0 +1,8 @@
+Laser_Tower.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+용지
+bounds:2,2,309,309
+폴더 5 복사
+bounds:313,2,252,309

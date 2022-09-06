@@ -1,0 +1,2539 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156b5a95ca625c543835cae555f7fc86, type: 3}
+  m_Name: MasterySO
+  m_EditorClassIdentifier: 
+  masteryDatas:
+  - character: 0
+    NeedPlayerLevelList: 0000000000000000000000000000000000000000
+    Vertical_Masterys_TypeAttack:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    Vertical_Masterys_TypeUtility:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+  - character: 1
+    NeedPlayerLevelList: 0000000000000000000000000000000000000000
+    Vertical_Masterys_TypeAttack:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    Vertical_Masterys_TypeUtility:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+  - character: 2
+    NeedPlayerLevelList: 0000000000000000000000000000000000000000
+    Vertical_Masterys_TypeAttack:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    Vertical_Masterys_TypeUtility:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+  - character: 3
+    NeedPlayerLevelList: 0000000000000000000000000000000000000000
+    Vertical_Masterys_TypeAttack:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    Vertical_Masterys_TypeUtility:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+  - character: 4
+    NeedPlayerLevelList: 0000000000000000000000000000000000000000
+    Vertical_Masterys_TypeAttack:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 0
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    Vertical_Masterys_TypeUtility:
+    - LevelType: 0
+      Masterys:
+      - adress: 0
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 1
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 2
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 3
+        Mastery_Level: 0
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 1
+      Masterys:
+      - adress: 4
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 5
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 6
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 7
+        Mastery_Level: 1
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 2
+      Masterys:
+      - adress: 8
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 9
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 10
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 11
+        Mastery_Level: 2
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 3
+      Masterys:
+      - adress: 12
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 13
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 14
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 15
+        Mastery_Level: 3
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+    - LevelType: 4
+      Masterys:
+      - adress: 16
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 17
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 18
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+      - adress: 19
+        Mastery_Level: 4
+        Mastery_Type: 1
+        Low_Mastery: []
+        High_Mastery:
+          id: 0
+        Icon: {fileID: 0}
+        MasteryName: 
+        Desc: 
+        isUsable: 0
+        MaxLevel: 1
+        CurrentLevel: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: , ns: , asm: }

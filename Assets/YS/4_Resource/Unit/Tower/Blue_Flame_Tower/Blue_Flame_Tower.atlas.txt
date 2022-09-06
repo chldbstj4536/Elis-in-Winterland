@@ -1,0 +1,8 @@
+Blue_Flame_Tower.png
+size:1024,512
+filter:Linear,Linear
+pma:true
+Blue_Flame_Tower
+bounds:313,2,295,309
+용지
+bounds:2,2,309,309

@@ -1,0 +1,1030 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a91cdd41d31f1443a6c4dc0f9b0036a, type: 3}
+  m_Name: Stage1-5
+  m_EditorClassIdentifier: Assembly-CSharp:YS:Stage
+  waves:
+  - readyTime: 30
+    timeline:
+    - spawnTime: 3
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 5
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 7
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 9
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 11
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 5
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 13
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 5
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 6
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 14.2
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 17.5
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 8
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 0
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 0
+        zOffset: 0
+        zRandomOffsetRange: 0
+    - spawnTime: 18.7
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 5
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 1
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+  - readyTime: 30
+    timeline:
+    - spawnTime: 0
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 3
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 3
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 1
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 2
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 5
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 5
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 5
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 11
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 7
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 6
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 3
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 8
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 6
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 6
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 6
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 8
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 7
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 4
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 7
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 8
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 1
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 1
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 7
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 5
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 6
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 8
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+    - spawnTime: 3
+      overlapDistance: 0
+      spawnMonsters:
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 0
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 1
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3
+      - monsterIndex: 3
+        monsterLevel: 0
+        isRandomSide: 1
+        isLeftSide: 0
+        isRandomZLane: 0
+        zLane: 0
+        isRandomZOffset: 1
+        zOffset: 0
+        zRandomOffsetRange: 0.3

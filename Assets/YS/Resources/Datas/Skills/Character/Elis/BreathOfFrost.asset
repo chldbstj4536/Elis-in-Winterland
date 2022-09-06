@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 665d0b594d1cfa64e93a48e7d90cf5fb, type: 3}
+  m_Name: BreathOfFrost
+  m_EditorClassIdentifier: 
+  data:
+    skillName: "\uB0C9\uAE30\uC758 \uC228\uACB0"
+    skillDesc: "\uB9C8\uC6B0\uC2A4 \uD3EC\uC778\uD130\uB97C \uD5A5\uD574 \uC6D0\uBFD4\uBC94\uC704\uC758
+      \uC601\uC5ED\uC5D0 \uB4E4\uC5B4\uC628 \uBAA8\uB4E0 \uC801\uB4E4\uC5D0\uAC8C
+      \uD53C\uD574\uB97C \uC785\uD788\uACE0 \uB290\uB824\uC9D0 \uC0C1\uD0DC\uC774\uC0C1\uC744
+      \uBD80\uC5EC\uD569\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: a152e4f64bd84b447937150fec9b5d6d, type: 3}
+    maxLv: 1
+    activeSkillData:
+    - id: 0
+    passiveSkillDatas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: Unit/Skill/ABreathOfFrostData, ns: YS, asm: Assembly-CSharp}
+      data:
+        ShowPPSetting: 0
+        PP_UseRange: 1
+        PP_UseDefaultTarget: 1
+        PP_UseInRangeHitboxes: 0
+        range: 3
+        targetLayerMask: 2
+        targetType: 4
+        isUsingCasterRotation: 0
+        inRangeHitboxes: []
+        PP_UseCombo: 0
+        PP_UsePlayerOnly: 1
+        skillCastingType: 1
+        animSetCasting: []
+        animSetCastingInMove: []
+        animSetCastingInStop: []
+        animSetAttack:
+        - track: 0
+          anim: {fileID: 11400000, guid: e38c9300cbed3d341bf7ad8c2b47fa9b, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.3333
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+          - timeScale: 1
+            startTime: 0.3333
+            endTime: 0.5333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 1
+          - timeScale: 1
+            startTime: 0.5333
+            endTime: 0.8333
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        animSetAttackInMove: []
+        animSetAttackInStop: []
+        isDefaultAttack: 0
+        coolTime: 3.56
+        maxCharge: 1
+        baseCharge: 1
+        chargeTime: 0
+        manaCost: 35
+        maxCombo: 1
+        moveSpdInCasting: 0
+        moveSpdInAttack: 0.7
+        bCanCancelInCasting: 0
+        bCanCancelInAttack: 0
+        rangeType: 0
+        isDirVector: 0
+        normal_magicDamage: 11
+        normal_magicPowerRate: 0.51
+        slowPSkillData:
+          ShowPPSetting: 0
+          PP_UseRange: 0
+          PP_UseDefaultTarget: 0
+          PP_UseInRangeHitboxes: 0
+          range: 0
+          targetLayerMask: 0
+          targetType: 0
+          isUsingCasterRotation: 0
+          inRangeHitboxes: []
+          PP_UseDuration: 1
+          PP_UseRestrictionFlag: 0
+          PP_UseRemainTimeType: 1
+          PP_UseAreaStack: 0
+          PP_UseTick: 0
+          duration: 2
+          isTargetingAll: 0
+          restrictionFlag: 0
+          remainTimeType: 1
+          maxAreaStack: 1
+          isUsingTick: 0
+          tickCycleTime: 0
+          maxTickStack: 1
+          slowRate: 0.71
+        max_duringTime: 3
+        blow_magicDamage: 13
+        blow_magicPowerRate: 0.13
+        pushAmount: 2
+        knockbackSpeed: 5
+        hitbox:
+          id: 1
+        loopAttackFXPrefab: {fileID: -8411792699744230460, guid: d65cd6dd650e0814292df8a25531dad6, type: 3}
+        attackFXPrefab: {fileID: 461423395501776176, guid: 5b85c39b7d2ebc14aae83dab10e26c2b, type: 3}
+    00000001:
+      type: {class: SectorHitcast, ns: YS, asm: Assembly-CSharp}
+      data:
+        offset: {x: 0, y: 0, z: 0}
+        direction: {x: 0, y: 0, z: 1}
+        maxDistance: 0.0001
+        rangeTypeFlag: 2
+        startGizmoColor: {r: 0, g: 1, b: 0, a: 0.5}
+        endGizmoColor: {r: 1, g: 0.92, b: 0.016, a: 0.5}
+        areaColor: {r: 1, g: 0, b: 0, a: 0.5}
+        radius: 0
+        angle: 60

@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ed7d3276d307a44bab59de4bcbaae13, type: 3}
+  m_Name: PlayableUnitData
+  m_EditorClassIdentifier: 
+  unitData:
+  - index: 0
+    data:
+      id: 0
+  - index: 1
+    data:
+      id: 1
+  - index: 2
+    data:
+      id: 2
+  - index: 3
+    data:
+      id: 3
+  - index: 4
+    data:
+      id: 4
+  references:
+    version: 1
+    00000000:
+      type: {class: PlayableUnit/PlayableUnitData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: -627528977588264612, guid: 4a86ca502c53f8d4295c1aad8649b5c0, type: 3}
+        name: "\uC5D8\uB9AC\uC2A4"
+        desc: "\uC5BC\uC74C\uB9C8\uBC95\uC0AC\uC785\uB2C8\uB2E4."
+        icon: {fileID: 21300000, guid: 07d3f0a9ea8681444a93d1ee4b55f816, type: 3}
+        attribute: 0
+        size: 1
+        baseMaxHP: 4000000
+        baseMaxMP: 200
+        baseHPRegen: 2
+        baseMPRegen: 7
+        physxPower: 7
+        magicPower: 30
+        armor: 0.1
+        armorPnt: 0
+        atkSpd: 1.5
+        moveSpeed: 3.1
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 35
+        incMpPerLv: 25
+        incHPRegenPerLv: 1
+        incMPRegenPerLv: 1
+        incPhysxPowerPerLv: 5
+        incMagicPowerPerLv: 8
+        incArmorPerLv: 0.005
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0.002
+        incMoveSpeed: 0.002
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle:
+        - track: 1
+          anim: {fileID: 11400000, guid: 63ed849b940006948b901af9ed116363, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 1.3333
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetMove:
+        - track: 1
+          anim: {fileID: 11400000, guid: 6768e95121da0904cbaac8304b29af12, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.3
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+          - timeScale: 1
+            startTime: 0.3
+            endTime: 1.2667
+            mixTime: 0.1
+            isLoop: 1
+            isSkip: 0
+        animSetDie:
+        - track: 0
+          anim: {fileID: 11400000, guid: 62028aac3dd1f5b4cad408dffcb8005f, type: 2}
+          segments:
+          - timeScale: 1
+            startTime: 0
+            endTime: 0.2333
+            mixTime: 0.1
+            isLoop: 0
+            isSkip: 0
+        defaultAttackData: {fileID: 11400000, guid: df2da3f8bc5e81c4cb6fc41bf335aee9, type: 2}
+        skillDatas:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        index: 0
+        iconOffset: {x: 4.65, y: -76.64}
+        dashSkill: {fileID: 11400000, guid: a99110fcc69d77a4193667765b3b60f0, type: 2}
+        ultimateSkill: {fileID: 11400000, guid: 9b0da4f7299ce124490c423d9fd385f6, type: 2}
+    00000001:
+      type: {class: PlayableUnit/PlayableUnitData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 0}
+        name: 
+        desc: 
+        icon: {fileID: 0}
+        attribute: 0
+        size: 0
+        baseMaxHP: 0
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 0
+        magicPower: 0
+        armor: 0
+        armorPnt: 0
+        atkSpd: 0
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 0
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle: []
+        animSetMove: []
+        animSetDie: []
+        defaultAttackData: {fileID: 0}
+        skillDatas: []
+        index: 1
+        iconOffset: {x: 0, y: 0}
+        dashSkill: {fileID: 0}
+        ultimateSkill: {fileID: 0}
+    00000002:
+      type: {class: PlayableUnit/PlayableUnitData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 0}
+        name: 
+        desc: 
+        icon: {fileID: 0}
+        attribute: 0
+        size: 0
+        baseMaxHP: 0
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 0
+        magicPower: 0
+        armor: 0
+        armorPnt: 0
+        atkSpd: 0
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 0
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle: []
+        animSetMove: []
+        animSetDie: []
+        defaultAttackData: {fileID: 0}
+        skillDatas: []
+        index: 2
+        iconOffset: {x: 0, y: 0}
+        dashSkill: {fileID: 0}
+        ultimateSkill: {fileID: 0}
+    00000003:
+      type: {class: PlayableUnit/PlayableUnitData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 0}
+        name: 
+        desc: 
+        icon: {fileID: 0}
+        attribute: 0
+        size: 0
+        baseMaxHP: 0
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 0
+        magicPower: 0
+        armor: 0
+        armorPnt: 0
+        atkSpd: 0
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 0
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle: []
+        animSetMove: []
+        animSetDie: []
+        defaultAttackData: {fileID: 0}
+        skillDatas: []
+        index: 3
+        iconOffset: {x: 0, y: 0}
+        dashSkill: {fileID: 0}
+        ultimateSkill: {fileID: 0}
+    00000004:
+      type: {class: PlayableUnit/PlayableUnitData, ns: YS, asm: Assembly-CSharp}
+      data:
+        prefab: {fileID: 0}
+        name: 
+        desc: 
+        icon: {fileID: 0}
+        attribute: 0
+        size: 0
+        baseMaxHP: 0
+        baseMaxMP: 0
+        baseHPRegen: 0
+        baseMPRegen: 0
+        physxPower: 0
+        magicPower: 0
+        armor: 0
+        armorPnt: 0
+        atkSpd: 0
+        moveSpeed: 0
+        criticalRate: 0
+        cooldownReduction: 0
+        tempVar: 0
+        incHpPerLv: 0
+        incMpPerLv: 0
+        incHPRegenPerLv: 0
+        incMPRegenPerLv: 0
+        incPhysxPowerPerLv: 0
+        incMagicPowerPerLv: 0
+        incArmorPerLv: 0
+        incArmorPntPerLv: 0
+        incAtkSpdPerLv: 0
+        incMoveSpeed: 0
+        incCriticalRatePerLv: 0
+        incCdrPerLv: 0
+        animSetIdle: []
+        animSetMove: []
+        animSetDie: []
+        defaultAttackData: {fileID: 0}
+        skillDatas: []
+        index: 4
+        iconOffset: {x: 0, y: 0}
+        dashSkill: {fileID: 0}
+        ultimateSkill: {fileID: 0}

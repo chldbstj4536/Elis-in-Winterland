@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05366da22b4d6e4418a93f027191d916, type: 3}
+  m_Name: BindingDataSO
+  m_EditorClassIdentifier: 
+  lv_Cost: 
+  Icon_HP: {fileID: 21300000, guid: cda7553157bf7f04bae0fb549f9fa499, type: 3}
+  Icon_MP: {fileID: 21300000, guid: ff72989858fb7fb4988e02485f1f2c56, type: 3}
+  Icon_AMROR: {fileID: 21300000, guid: c0b4e09f66ca64f4585caa67b310c3e2, type: 3}
+  Icon_PHYCIS_DMG: {fileID: 21300000, guid: 3b5f577bdef488d41b097ff36a027e64, type: 3}
+  Icon_ARMOR_PNT: {fileID: 21300000, guid: e8b1e8534331d414887cd12aef55c97a, type: 3}
+  Icon_CRITICAL_RATE: {fileID: 21300000, guid: d0206d70343f3cb449c4f9875804bcf9, type: 3}
+  Icon_LIFE_STEEL: {fileID: 21300000, guid: d3b5557765bd0ba408516c038feb4d23, type: 3}
+  Icon_ATTACKRANGE: {fileID: 21300000, guid: 105e677117b36b64d8f4aaffffef0d14, type: 3}
+  Icon_ATTACK_SPEED: {fileID: 21300000, guid: 1b6b5ccceeee7e545a76c660f8f9c81e, type: 3}
+  Icon_MAGICPOWER: {fileID: 21300000, guid: d5475302b8f2f4c4c9ec06ecba2580c0, type: 3}
+  Icon_COOLTIME_REDUCE: {fileID: 21300000, guid: f41b6f32be9d0d142bff25d694f8d44b, type: 3}
+  Icon_MOVE_SPEED: {fileID: 21300000, guid: 8c48a1b5042e1994899781af26e21899, type: 3}
+  Icon_DASH_SPEED: {fileID: 21300000, guid: 7d45f28aaf0dde34083d74ff2c6fb5e5, type: 3}
+  Icon_DASH_COOLTIME: {fileID: 21300000, guid: 38f2e40158180a944856b58490e3b060, type: 3}
+  Icon_ManaCost: {fileID: 21300000, guid: ff72989858fb7fb4988e02485f1f2c56, type: 3}
+  Icon_CoolTime: {fileID: 21300000, guid: 485d321706b65654caf617ebb07ff58a, type: 3}
+  Icon_Silver: {fileID: 21300000, guid: fafa53fe1c9c5c9468dbed379c75c87a, type: 3}
+  Icon_Gold: {fileID: 21300000, guid: b1dd9d0322e79014683690e7eb0e3d25, type: 3}
+  Icon_Null: {fileID: 21300000, guid: 055a6bd799c2a5946823a840ad22c154, type: 3}
+  Icon_Temperature: {fileID: 21300000, guid: b5a58fdeec3a1af47bd28ebe44f4f29d, type: 3}
+  EnableColor: {r: 1, g: 1, b: 1, a: 1}
+  DisableColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+  ZeroColor: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 1}
